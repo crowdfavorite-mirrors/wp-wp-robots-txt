@@ -3,8 +3,8 @@ Contributors: chrisguitarguy
 Donate link: http://www.pwsausa.org/give.htm
 Tags: robots.txt, robots, seo
 Requires at least: 3.3
-Tested up to: 3.3.1
-Stable tag: 1.0
+Tested up to: 3.6
+Stable tag: 1.1
 
 WP Robots Txt Allows you to edit the content of your robots.txt file.
 
@@ -12,7 +12,7 @@ WP Robots Txt Allows you to edit the content of your robots.txt file.
 
 WordPress, by default, includes a simple robots.txt file that's dynamically generated from within the WP application.  This is great! but maybe you want to change the content.
 
-Enter WP Robots Txt, a plugin that adds an additional field to the "Privacy Settings" admin page where you can do just that.
+Enter WP Robots Txt, a plugin that adds an additional field to the "Reading" admin page where you can do just that.
 
 == Installation ==
 
@@ -46,7 +46,14 @@ Yes.  Be careful! That said, `robots.txt` files are suggestions. They don't real
 = 1.0 =
 * Initial version
 
+= 1.1 =
+* Moved the settings field "officially" to the reading page
+* General code clean up
+
 == Upgrade Notice ==
 
 = 1.0 =
 * Everyone wants to edit their `robots.txt` files.
+
+= 1.1 =
+* Should actually work in 3.5+ now
